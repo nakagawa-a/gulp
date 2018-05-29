@@ -1,0 +1,17 @@
+@import "compass/reset";
+
+h1 {
+    color: red;
+    &:hover {
+        color: blue;
+    }
+}
+
+h2 {
+    color: red;
+    transition: 200ms ease-out transform;
+    &:hover {
+        color: blue;
+        transform: translate(10px, 0);
+    }
+}
