@@ -1,4 +1,4 @@
-@import "compass/reset";
+@import "header";
 
 h1 {
     color: red;
@@ -7,11 +7,3 @@ h1 {
     }
 }
 
-h2 {
-    color: red;
-    transition: 200ms ease-out transform;
-    &:hover {
-        color: blue;
-        transform: translate(10px, 0);
-    }
-}

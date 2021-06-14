@@ -1,0 +1,13 @@
+
+cd gulp-start/
+
+インストール
+
+npm install --save gulp
+npm install --save gulp-sass
+npm install --save gulp-sourcemaps
+npm install --save gulp-autoprefixer
+npm install --save gulp-plumber
+npm install --save gulp-ejs
+npm install --save gulp-rename
+npm install --save gulp-html-beautify
