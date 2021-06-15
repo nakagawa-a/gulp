@@ -1,13 +1,11 @@
+初回のみ作業ディレクトリーに移動してインストール
 
 cd gulp-start/
 
-インストール
+npm install --save gulp gulp-sass gulp-sourcemaps gulp-autoprefixer gulp-plumber gulp-ejs gulp-rename gulp-html-beautify
 
-npm install --save gulp
-npm install --save gulp-sass
-npm install --save gulp-sourcemaps
-npm install --save gulp-autoprefixer
-npm install --save gulp-plumber
-npm install --save gulp-ejs
-npm install --save gulp-rename
-npm install --save gulp-html-beautify
+
+通常作業開始時(ejsとscssを監視モード)
+cd gulp-start/
+
+npx gulp
